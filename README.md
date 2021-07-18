@@ -6,3 +6,9 @@ Dependencies:
  - Express
  - TypeScript
  - Zod
+
+Install: ```npm install```
+
+Build: ```npm run build```
+
+Run: ```npm start```
