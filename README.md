@@ -1,6 +1,6 @@
 # Amble
 
-Amble, a server implementation with compile-time and run-time typing. 
+Amble, an API server implementation with compile-time and run-time typing.
 
 Dependencies:
  - Express
