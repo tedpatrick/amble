@@ -11,6 +11,7 @@ const Input = z.object({
 
 // output schema
 const Output = z.object({
+    account: z.number(),
     balance: z.number(),
     now: z.number()
 }).strict();
@@ -23,6 +24,7 @@ type OutputType = z.infer<typeof Output>;
 async function handler ( input:InputType ):Promise<OutputType> {
     console.log( input );
     return {
+        account: input.account,
         now: Date.now(),
         balance: 42
     }
