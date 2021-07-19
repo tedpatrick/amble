@@ -39,6 +39,7 @@ export function register( app: express.Express ){
             const output:OutputType = await handler(input);
             res.json( Output.parse( output ) );
         } catch (error) {
+            req.log.error( error );
             res.status(500).send( {
                 req: {
                     path: req.path,

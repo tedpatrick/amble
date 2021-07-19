@@ -6,6 +6,7 @@ Dependencies:
  - Express
  - TypeScript
  - Zod
+ - Pino
 
 Install: ```npm install```
 

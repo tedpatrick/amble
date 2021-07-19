@@ -1,4 +1,5 @@
 import express from "express";
+import pino from 'pino-http';
 
 import * as JsonParseError from './middleware/JsonParseMiddleware'
 import * as v1SampleGet from './routes/v1.sampleGet'
@@ -12,6 +13,7 @@ const {
 const app = express();
 
 // middleware
+app.use(pino())
 app.use(express.json());
 JsonParseError.register(app);
 
