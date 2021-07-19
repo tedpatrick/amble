@@ -42,7 +42,8 @@ export function register( app: express.Express ){
                 req: {
                     path: req.path,
                     method: req.method,
-                    body: req.body
+                    query: req.query,
+                    params: req.params
                 },
                 error
             } )
