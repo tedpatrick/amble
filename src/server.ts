@@ -1,9 +1,9 @@
 import express from "express";
 
 import * as JsonParseError from './middleware/JsonParseMiddleware'
-import * as v1SampleGet from './root/v1.sampleGet'
-import * as v1SamplePost from './root/v1.samplePost'
-import * as v1PathParams from './root/v1.pathParamsGet'
+import * as v1SampleGet from './routes/v1.sampleGet'
+import * as v1SamplePost from './routes/v1.samplePost'
+import * as v1PathParams from './routes/v1.pathParamsGet'
 
 const {
     PORT = 3000
