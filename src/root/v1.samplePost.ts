@@ -7,7 +7,7 @@ const path = '/v1/sample';
 // input schema
 const Input = z.object({
     account: z.number()
-});
+}).strict();
 
 // output schema
 const Output = z.object({

@@ -7,7 +7,7 @@ const path = '/v1/path/:name';
 // input schema
 const Input = z.object({
     name: z.string()
-});
+}).strict();
 
 // output schema
 const Output = z.object({

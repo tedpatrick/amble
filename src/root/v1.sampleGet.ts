@@ -5,7 +5,7 @@ import { z } from "zod";
 const path = '/v1/sample';
 
 // input schema
-//const Input = z.object({});
+//const Input = z.object({}).strict();
 
 // output schema
 const Output = z.object({
