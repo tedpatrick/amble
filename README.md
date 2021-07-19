@@ -1,6 +1,6 @@
 # Amble
 
-Amble is typed server framework with compile-time and run-time typing. 
+Amble, a server implementation with compile-time and run-time typing. 
 
 Dependencies:
  - Express
